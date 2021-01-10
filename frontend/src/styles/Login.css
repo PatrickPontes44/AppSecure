@@ -1,0 +1,112 @@
+/* :root {
+  font-size: 62.5%;
+} */
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE-LOGIN */
+div#page-login {
+  background: linear-gradient(
+    162.02deg,
+    #9fe8ff 1.89%,
+    rgba(209, 242, 253, 0.78) 69.18%
+  );
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-top: 19px;
+  margin-left: 43px;
+  font-size: 24px;
+}
+
+.highlight {
+  color: #ff5678;
+}
+
+/* FONT AWESOME */
+.fa.fa-bars {
+  font-size: 24px;
+  margin-top: 23px;
+  margin-right: 39px;
+  color: #ff5678;
+}
+
+/* BOX-LOGIN */
+.box-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 274px;
+  height: 233px;
+  margin: 72px auto 0 auto;
+  background: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.box-login h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5.3px;
+  font-weight: bold;
+  margin-bottom: 9.02px;
+}
+
+.box-login label {
+  font-size: 14px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.box-login input[type="text"],
+.box-login input[type="password"] {
+  border: none;
+  width: 219.91px;
+  height: 25.89px;
+  background: #ff5678;
+  border-radius: 10px;
+  padding-left: 11.76px;
+  font-size: 14px;
+  font-family: "Nunito", "sans-serif";
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+}
+
+.box-login #nome-email-field,
+.box-login #senha-field {
+  margin-bottom: 16.47px;
+}
+
+.box-login #btn-entrar {
+  width: 68.21px;
+  height: 23.54px;
+  background: #ff5678;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-login #btn-cadastrarse {
+  font-size: 14px;
+  color: #ff5678;
+  text-decoration: none;
+}
