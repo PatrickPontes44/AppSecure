@@ -1,3 +1,6 @@
+import MobileNav from "./MobileNav";
+import DesktopNav from "./DesktopNav";
+
 function LoginHeader() {
   return (
     <div>
@@ -5,12 +8,18 @@ function LoginHeader() {
         <h1>
           App <span className="highlight">Secure</span>
         </h1>
-        <a href="#" onClick={(e) => e.preventDefault()} id="mobile-nav">
-          <i className="fa fa-bars"></i>
-        </a>
-        <a href="#" onClick={(e) => e.preventDefault()} id="desktop-nav">
-          Sobre Nós
-        </a>
+  
+        <MobileNav
+          href="#"
+          id="mobile-nav"
+          icon="fa fa-bars"
+        />
+  
+        <DesktopNav 
+          href="#"
+          id="desktop-nav"
+          text="Sobre Nós"
+        />
       </header>
     </div>
   );
