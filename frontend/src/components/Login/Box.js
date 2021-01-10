@@ -1,4 +1,5 @@
 import Input from "./Input";
+import Checkbox from "./Checkbox";
 
 function Box() {
   return (
@@ -19,10 +20,12 @@ function Box() {
           placeholder="********"
         />
 
-        <div id="container-checkbox">
-          <input type="checkbox" className="checkbox-style" />
-          <label id="label-continuar-conectado">Continuar Conectado</label>
-        </div>
+        <Checkbox
+          id="container-checkbox"
+          idLabel="label-continuar-conectado"
+          text="Continuar Conectado"
+        />
+
         <div id="container-buttons">
           <a id="btn-entrar" href="#">
             <i className="fas fa-sign-in-alt"></i>

@@ -108,7 +108,7 @@ header #desktop-nav {
   align-items: "center";
 }
 
-.box-login .checkbox-style {
+.box-login input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 11.76px;
@@ -118,7 +118,7 @@ header #desktop-nav {
   border-radius: 5px;
 }
 
-.box-login .checkbox-style:checked {
+.box-login input[type="checkbox"]:checked {
   background-color: #ff5678;
 }
 
@@ -234,7 +234,7 @@ header #desktop-nav {
     margin-bottom: 24.34px;
   }
 
-  .box-login .checkbox-style {
+  .box-login input[type="checkbox"] {
     width: 21.21px;
     height: 19.09px;
     padding: 5px;
@@ -256,6 +256,6 @@ header #desktop-nav {
 
   #container-logo-desktop img {
     width: 650px;
-    height: 487.50px;
+    height: 487.5px;
   }
 }
