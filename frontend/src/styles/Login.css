@@ -11,8 +11,6 @@
 
 /* PAGE-LOGIN */
 div#page-login {
-  display: flex;
-  flex-direction: column;
   background: linear-gradient(
     162.02deg,
     #9fe8ff 1.89%,
