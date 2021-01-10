@@ -91,6 +91,20 @@ header h1 {
   margin-bottom: 16.47px;
 }
 
+.box-login .checkbox-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 11.76px;
+  height: 10.59px;
+  padding: 5px;
+  border: 2px solid #ff5678;
+  border-radius: 5px;
+}
+
+.box-login .checkbox-style:checked {
+  background-color: #ff5678;
+}
+
 .box-login #btn-entrar {
   width: 68.21px;
   height: 23.54px;
@@ -103,6 +117,14 @@ header h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.box-login #btn-entrar i {
+  margin-right: 2.94px;
+}
+
+.box-login #btn-cadastrarse i {
+  margin-right: 2.94px;
 }
 
 .box-login #btn-cadastrarse {

@@ -21,7 +21,7 @@ function Login() {
           </div>
 
           <div style={{ display: "flex", alignItems: "center" }}>
-            <input type="checkbox" />
+            <input type="checkbox" class="checkbox-style" />
             <label
               style={{
                 fontSize: "10px",
