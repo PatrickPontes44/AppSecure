@@ -1,19 +1,23 @@
+import Input from "./Input";
+
 function Box() {
   return (
     <div className="box-login">
       <h2>Login</h2>
       <div className="container">
-        <div id="nome-email-field">
-          <label>Nome/Email</label>
-          <br />
-          <input type="text" placeholder="Nome/Email" />
-        </div>
+        <Input
+          id="nome-email-field"
+          label="Nome/Email"
+          type="text"
+          placeholder="Nome/Email"
+        />
 
-        <div id="senha-field">
-          <label>Senha</label>
-          <br />
-          <input type="password" placeholder="********" />
-        </div>
+        <Input
+          id="senha-field"
+          label="Senha"
+          type="password"
+          placeholder="********"
+        />
 
         <div id="container-checkbox">
           <input type="checkbox" className="checkbox-style" />
