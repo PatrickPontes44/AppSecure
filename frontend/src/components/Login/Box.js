@@ -1,5 +1,6 @@
 import Input from "./Input";
 import Checkbox from "./Checkbox";
+import Button from "./Button";
 
 function Box() {
   return (
@@ -27,14 +28,19 @@ function Box() {
         />
 
         <div id="container-buttons">
-          <a id="btn-entrar" href="#">
-            <i className="fas fa-sign-in-alt"></i>
-            Entrar
-          </a>
-          <a id="btn-cadastrarse" href="#">
-            <i className="fas fa-user-plus"></i>
-            Cadastrar-se
-          </a>
+          <Button
+            id="btn-entrar"
+            href="#"
+            icon="fas fa-sign-in-alt"
+            text="Entrar"
+          />
+
+          <Button
+            id="btn-cadastrarse"
+            href="#"
+            icon="fas fa-user-plus"
+            text="Cadastrar-se"
+          />
         </div>
       </div>
     </div>
