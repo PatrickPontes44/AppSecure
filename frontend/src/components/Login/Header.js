@@ -1,7 +1,6 @@
+import styled from "styled-components";
 import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
-
-import styled from "styled-components";
 
 const StyledHeader = styled.header`
   display: flex;

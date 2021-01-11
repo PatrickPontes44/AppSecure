@@ -9,7 +9,7 @@ import DontEmptyInput from "../../scripts/dontEmptyInput";
 
 import styled from "styled-components";
 
-const StyledDiv = styled.div`
+const StyledDivBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +89,7 @@ function Box() {
   });
 
   return (
-    <StyledDiv>
+    <StyledDivBox>
       <StyledH2>Login</StyledH2>
       <div className="container">
         <Input
@@ -131,7 +131,7 @@ function Box() {
         </StyledDivButtons>
       </div>
       <ToastContainer />
-    </StyledDiv>
+    </StyledDivBox>
   );
 }
 
