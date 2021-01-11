@@ -116,6 +116,7 @@ header #desktop-nav {
   padding: 5px;
   border: 2px solid #ff5678;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .box-login input[type="checkbox"]:checked {
