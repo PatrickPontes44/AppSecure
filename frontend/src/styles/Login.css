@@ -257,7 +257,7 @@ header #desktop-nav {
   }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1800px) {
   /* HEADER */
   header #desktop-nav {
     font-size: 65px;
@@ -326,7 +326,7 @@ header #desktop-nav {
   }
 }
 
-@media screen and (min-width: 2400px) {
+@media screen and (min-width: 2650px) {
   /* HEADER */
   header #desktop-nav {
     font-size: 105px;
