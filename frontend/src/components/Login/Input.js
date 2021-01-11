@@ -3,7 +3,7 @@ function Input(props) {
     <div id={props.id}>
       <label>{props.label}</label>
       <br />
-      <input type={props.type} placeholder={props.placeholder} />
+      <input id={props.idInput} type={props.type} placeholder={props.placeholder} />
     </div>
   );
 }

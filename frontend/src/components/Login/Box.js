@@ -2,7 +2,18 @@ import Input from "./Input";
 import Checkbox from "./Checkbox";
 import Button from "./Button";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useEffect } from "react";
+import DontEmptyInput from "../../scripts/dontEmptyInput";
+
 function Box() {
+  useEffect(() => {
+    document
+      .getElementById("btn-entrar")
+      .addEventListener("click", DontEmptyInput);
+  });
+
   return (
     <div className="box-login">
       <h2>Login</h2>
@@ -12,6 +23,7 @@ function Box() {
           label="Nome/Email"
           type="text"
           placeholder="Nome/Email"
+          idInput="nome-email"
         />
 
         <Input
@@ -19,6 +31,7 @@ function Box() {
           label="Senha"
           type="password"
           placeholder="********"
+          idInput="senha"
         />
 
         <Checkbox
@@ -43,6 +56,7 @@ function Box() {
           />
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }
