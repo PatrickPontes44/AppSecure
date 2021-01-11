@@ -28,8 +28,7 @@ header {
 }
 
 header h1 {
-  margin-top: 19px;
-  margin-left: 43px;
+  margin: 19px 0 0 43px;
   font-size: 24px;
 }
 
@@ -44,8 +43,7 @@ header #desktop-nav {
 /* FONT AWESOME */
 .fa.fa-bars {
   font-size: 24px;
-  margin-top: 23px;
-  margin-right: 39px;
+  margin: 23px 39px 0 0;
   color: #ff5678;
 }
 
@@ -66,9 +64,8 @@ header #desktop-nav {
 .box-login h2 {
   text-align: center;
   font-size: 18px;
-  margin-top: 5.3px;
+  margin: 5.3px 0 9.02px 0;
   font-weight: bold;
-  margin-bottom: 9.02px;
 }
 
 .box-login label {
@@ -94,24 +91,23 @@ header #desktop-nav {
 
 .box-login #nome-email-field,
 .box-login #senha-field {
-  margin-bottom: 16.47px;
+  margin: 0 0 16.47px 0;
 }
 
 .box-login #label-continuar-conectado {
   font-size: 10px;
   color: #000;
   font-weight: bold;
-  margin-left: 5.29px;
+  margin: 0 0 0 5.29px;
 }
 
 .box-login .container-checkbox {
-  display: "flex";
-  align-items: "center";
+  display: flex;
+  align-items: center;
 }
 
 .box-login input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
   width: 11.76px;
   height: 10.59px;
   padding: 5px;
@@ -144,12 +140,9 @@ header #desktop-nav {
   text-align: center;
 }
 
-.box-login #btn-entrar i {
-  margin-right: 2.94px;
-}
-
+.box-login #btn-entrar i,
 .box-login #btn-cadastrarse i {
-  margin-right: 2.94px;
+  margin: 0 2.94px 0 0;
 }
 
 .box-login #btn-cadastrarse {
@@ -162,7 +155,7 @@ header #desktop-nav {
 #container-logo-mobile {
   display: flex;
   justify-content: center;
-  margin-top: 53px;
+  margin: 53px 0 0 0;
 }
 
 /* CONTAINER-LOGO-DESKTOP */
@@ -183,7 +176,7 @@ header #desktop-nav {
     font-size: 25px;
     color: #ff5678;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 32px;
     margin-right: 102px;
   }
 
@@ -264,12 +257,10 @@ header #desktop-nav {
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1900px) {
   /* HEADER */
   header #desktop-nav {
-    margin-top: 30px;
     font-size: 65px;
-    margin-right: 102px;
   }
 
   header h1 {
@@ -279,8 +270,7 @@ header #desktop-nav {
   /* BOX-LOGIN */
   .box-login {
     width: 800px;
-    height: 650px;
-    margin-left: 122px;
+    height: 600px;
   }
 
   .box-login h2 {
@@ -332,31 +322,30 @@ header #desktop-nav {
 
   #container-logo-desktop img {
     width: 800px;
-    height: 650px;
+    height: 600px;
   }
 }
 
-@media screen and (min-width: 2450px) {
+@media screen and (min-width: 2400px) {
   /* HEADER */
   header #desktop-nav {
-    margin-top: 45px;
-    font-size: 130px;
-    margin-right: 204px;
+    font-size: 105px;
   }
 
   header h1 {
-    font-size: 145px;
+    font-size: 115px;
   }
 
   /* BOX-LOGIN */
   .box-login {
-    width: 1200px;
-    height: 750px;
-    margin-left: 122px;
+    width: 1000px;
+    height: 800px;
   }
 
   .box-login h2 {
     font-size: 120px;
+    margin-top: 36px;
+    margin-bottom: 78px;
   }
 
   .box-login label {
@@ -365,7 +354,7 @@ header #desktop-nav {
 
   .box-login input[type="text"],
   .box-login input[type="password"] {
-    width: 800px;
+    width: 750px;
     height: 80px;
     font-size: 40px;
   }
@@ -397,11 +386,81 @@ header #desktop-nav {
   }
 
   #container-logo-desktop {
-    margin-top: 260px;
+    margin-top: 200px;
   }
 
   #container-logo-desktop img {
     width: 1000px;
     height: 750px;
+  }
+}
+
+@media screen and (min-width: 3500px) {
+  /* HEADER */
+  header #desktop-nav {
+    font-size: 145px;
+  }
+
+  header h1 {
+    font-size: 150px;
+  }
+
+  /* BOX-LOGIN */
+  .box-login {
+    width: 1800px;
+    height: 1350px;
+  }
+
+  .box-login h2 {
+    font-size: 170px;
+    margin-top: 72px;
+    margin-bottom: 136px;
+  }
+
+  .box-login label {
+    font-size: 70px;
+  }
+
+  .box-login input[type="text"],
+  .box-login input[type="password"] {
+    width: 1500px;
+    height: 160px;
+    font-size: 80px;
+  }
+
+  .box-login #label-continuar-conectado {
+    font-size: 50px;
+  }
+
+  .box-login #btn-entrar {
+    width: 488px;
+    height: 168px;
+    font-size: 80px;
+  }
+
+  .box-login #btn-cadastrarse {
+    font-size: 80px;
+  }
+
+  .box-login #container-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .box-login input[type="checkbox"] {
+    width: 84px;
+    height: 66px;
+    padding: 5px;
+  }
+
+  #container-logo-desktop {
+    margin-top: 260px;
+  }
+
+  #container-logo-desktop img {
+    width: 1800px;
+    height: 1350px;
   }
 }
