@@ -178,12 +178,12 @@ header #desktop-nav {
   }
 
   header #desktop-nav {
-    display: block;
+    display: flex;
     text-decoration: none;
     font-size: 25px;
     color: #ff5678;
     font-weight: bold;
-    margin-top: 42px;
+    margin-top: 30px;
     margin-right: 102px;
   }
 
@@ -261,5 +261,147 @@ header #desktop-nav {
   #container-logo-desktop img {
     width: 650px;
     height: 487.5px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  /* HEADER */
+  header #desktop-nav {
+    margin-top: 30px;
+    font-size: 65px;
+    margin-right: 102px;
+  }
+
+  header h1 {
+    font-size: 80px;
+  }
+
+  /* BOX-LOGIN */
+  .box-login {
+    width: 800px;
+    height: 650px;
+    margin-left: 122px;
+  }
+
+  .box-login h2 {
+    font-size: 60px;
+    margin-top: 18px;
+    margin-bottom: 39px;
+  }
+
+  .box-login label {
+    font-size: 40px;
+  }
+
+  .box-login input[type="text"],
+  .box-login input[type="password"] {
+    width: 600px;
+    height: 53px;
+    font-size: 40px;
+  }
+
+  .box-login #label-continuar-conectado {
+    font-size: 30px;
+  }
+
+  .box-login #btn-entrar {
+    width: 244px;
+    height: 84px;
+    font-size: 40px;
+  }
+
+  .box-login #btn-cadastrarse {
+    font-size: 40px;
+  }
+
+  .box-login #container-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .box-login input[type="checkbox"] {
+    width: 42px;
+    height: 38px;
+    padding: 5px;
+  }
+
+  #container-logo-desktop {
+    margin-top: 155px;
+  }
+
+  #container-logo-desktop img {
+    width: 800px;
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 2450px) {
+  /* HEADER */
+  header #desktop-nav {
+    margin-top: 45px;
+    font-size: 130px;
+    margin-right: 204px;
+  }
+
+  header h1 {
+    font-size: 145px;
+  }
+
+  /* BOX-LOGIN */
+  .box-login {
+    width: 1200px;
+    height: 750px;
+    margin-left: 122px;
+  }
+
+  .box-login h2 {
+    font-size: 120px;
+  }
+
+  .box-login label {
+    font-size: 50px;
+  }
+
+  .box-login input[type="text"],
+  .box-login input[type="password"] {
+    width: 800px;
+    height: 80px;
+    font-size: 40px;
+  }
+
+  .box-login #label-continuar-conectado {
+    font-size: 40px;
+  }
+
+  .box-login #btn-entrar {
+    width: 244px;
+    height: 84px;
+    font-size: 40px;
+  }
+
+  .box-login #btn-cadastrarse {
+    font-size: 40px;
+  }
+
+  .box-login #container-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .box-login input[type="checkbox"] {
+    width: 42px;
+    height: 38px;
+    padding: 5px;
+  }
+
+  #container-logo-desktop {
+    margin-top: 260px;
+  }
+
+  #container-logo-desktop img {
+    width: 1000px;
+    height: 750px;
   }
 }
