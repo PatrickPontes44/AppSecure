@@ -9,8 +9,6 @@ function dontEmptyInput(e) {
     return toast.error(
       "Os campos de Nome/Email e/ou Senha não podem ser vazio."
     );
-  } else {
-    // code
   }
 }
 
