@@ -248,7 +248,7 @@ header #desktop-nav {
     display: none;
   }
 
-  /* CONTAINER-LOGO-MOBILE */
+  /* CONTAINER-LOGO-DESKTOP */
   #container-logo-desktop {
     display: flex;
     position: absolute;
