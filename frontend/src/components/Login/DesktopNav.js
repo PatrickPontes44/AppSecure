@@ -3,7 +3,7 @@ import styled from "styled-components";
 const A = styled.a`
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     display: flex;
     text-decoration: none;
     font-size: 25px;
@@ -21,7 +21,7 @@ const A = styled.a`
     font-size: 105px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     font-size: 145px;
   }
 `;

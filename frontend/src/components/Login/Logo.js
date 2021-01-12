@@ -5,14 +5,14 @@ const Mobile = styled.div`
   justify-content: center;
   margin: 53px 0 0 0;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     display: none;
   }
 `;
 const Desktop = styled.div`
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     display: flex;
     position: absolute;
     top: 0;
@@ -29,13 +29,13 @@ const Desktop = styled.div`
     margin-top: 200px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     margin-top: 260px;
   }
 `;
 
 const DesktopImg = styled.img`
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     width: 650px;
     height: 487.5px;
   }
@@ -50,7 +50,7 @@ const DesktopImg = styled.img`
     height: 750px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     width: 1800px;
     height: 1350px;
   }

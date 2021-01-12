@@ -41,7 +41,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1305px) {
   #btn-entrar {
     width: 122.03px;
     height: 42.42px;
@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (min-width: 3500px) {
+@media screen and (min-width: 3765px) {
   #btn-entrar {
     width: 488px;
     height: 168px;

@@ -11,7 +11,7 @@ const H1 = styled.h1`
   margin: 19px 0 0 43px;
   font-size: 24px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     font-size: 40px;
   }
 
@@ -23,7 +23,7 @@ const H1 = styled.h1`
     font-size: 115px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     font-size: 150px;
   }
 `;

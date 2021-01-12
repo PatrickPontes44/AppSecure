@@ -6,7 +6,7 @@ const Label = styled.label`
   font-weight: bold;
   margin: 0 0 0 5.29px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     font-size: 15px;
   }
 
@@ -18,7 +18,7 @@ const Label = styled.label`
     font-size: 35px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     font-size: 45px;
   }
 `;
@@ -27,7 +27,7 @@ const CheckboxDiv = styled.div`
   display: flex;
   align-items: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     margin-top: 29.7px;
     margin-bottom: 24.34px;
   }
@@ -40,7 +40,7 @@ const CheckboxDiv = styled.div`
     margin-top: 30px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     margin-top: 60px;
     margin-bottom: 30px;
   }
@@ -58,7 +58,7 @@ const Input = styled.input`
     background-color: #ff5678;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     width: 21.21px;
     height: 19.09px;
   }
@@ -73,7 +73,7 @@ const Input = styled.input`
     height: 38px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     width: 84px;
     height: 66px;
   }

@@ -21,16 +21,11 @@ const BoxDiv = styled.div`
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     width: 494.24px;
     height: 420px;
-    margin-left: 122px;
+    margin-left: 110px;
     z-index: 1;
-  }
-
-  @media screen and (min-width: 950px) {
-    width: 550px;
-    height: 412.50;
   }
 
   @media screen and (min-width: 1800px) {
@@ -43,7 +38,7 @@ const BoxDiv = styled.div`
     height: 800px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     width: 1800px;
     height: 1350px;
   }
@@ -55,16 +50,11 @@ const H2 = styled.h2`
   margin: 5.3px 0 9.02px 0;
   font-weight: bold;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     font-size: 30px;
     margin-top: 9.55px;
     margin-bottom: 29.7px;
   }
-
-  @media screen and (min-width: 950px) {
-    font-size: 45px;
-    margin-top: 14px;
-    margin-bottom: 33px;
 
   @media screen and (min-width: 1800px) {
     font-size: 60px;
@@ -78,7 +68,7 @@ const H2 = styled.h2`
     margin-bottom: 78px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     font-size: 170px;
     margin-top: 72px;
     margin-bottom: 136px;

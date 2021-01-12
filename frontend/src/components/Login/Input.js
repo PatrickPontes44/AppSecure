@@ -13,7 +13,7 @@ const InputType = styled.input`
   font-weight: bold;
   outline: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     width: 396.67px;
     height: 46.67px;
     font-size: 20px;
@@ -31,7 +31,7 @@ const InputType = styled.input`
     font-size: 40px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     width: 1500px;
     height: 160px;
     font-size: 80px;
@@ -43,7 +43,7 @@ const Label = styled.label`
   position: relative;
   color: rgba(0, 0, 0, 0.6);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     font-size: 20px;
   }
 
@@ -55,7 +55,7 @@ const Label = styled.label`
     font-size: 50px;
   }
 
-  @media screen and (min-width: 3500px) {
+  @media screen and (min-width: 3765px) {
     font-size: 70px;
   }
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const A = styled.a`
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1305px) {
     display: none;
   }
 `;
