@@ -1,9 +1,8 @@
 import SignUp from '../components/SignUp';
-import Header from "../components/Login/Header";
 
 function PageSignUp() {
     return(
-        <SingUp />
+        <SignUp />
     );
 }
 
