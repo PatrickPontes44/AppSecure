@@ -2,12 +2,12 @@ import styled from "styled-components";
 import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
 
-const StyledHeader = styled.header`
+const Header = styled.header`
   display: flex;
   justify-content: space-between;
 `;
 
-const StyledH1 = styled.h1`
+const H1 = styled.h1`
   margin: 19px 0 0 43px;
   font-size: 24px;
 
@@ -28,22 +28,22 @@ const StyledH1 = styled.h1`
   }
 `;
 
-const StyledSpan = styled.span`
+const Highlight = styled.span`
   color: #ff5678;
 `;
 
 function LoginHeader() {
   return (
     <div>
-      <StyledHeader>
-        <StyledH1>
-          App <StyledSpan className="highlight">Secure</StyledSpan>
-        </StyledH1>
+      <Header>
+        <H1>
+          App <Highlight className="highlight">Secure</Highlight>
+        </H1>
 
         <MobileNav href="#" id="mobile-nav" icon="fa fa-bars" />
 
         <DesktopNav href="#" id="desktop-nav" text="Sobre Nós" />
-      </StyledHeader>
+      </Header>
     </div>
   );
 }

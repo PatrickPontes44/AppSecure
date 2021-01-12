@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledA = styled.a`
+const A = styled.a`
   display: none;
 
   @media screen and (min-width: 768px) {
@@ -29,9 +29,9 @@ const StyledA = styled.a`
 function DesktopNav(props) {
   return (
     // prettier-ignore
-    <StyledA href={props.href} onClick={(e) => e.preventDefault()} id={props.id}>
+    <A href={props.href} onClick={(e) => e.preventDefault()} id={props.id}>
       {props.text}
-    </StyledA>
+    </A>
   );
 }
 

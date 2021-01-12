@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledInput = styled.input`
+const InputType = styled.input`
   border: none;
   width: 219.91px;
   height: 25.89px;
@@ -38,7 +38,7 @@ const StyledInput = styled.input`
   }
 `;
 
-const StyledLabel = styled.label`
+const Label = styled.label`
   font-size: 14px;
   position: relative;
   color: rgba(0, 0, 0, 0.6);
@@ -60,18 +60,18 @@ const StyledLabel = styled.label`
   }
 `;
 
-const StyledDiv = styled.div`
+const Div = styled.div`
   margin: 0 0 16.47px 0;
 `;
 
 function Input(props) {
   return (
-    <StyledDiv id={props.id}>
-      <StyledLabel>{props.label}</StyledLabel>
+    <Div id={props.id}>
+      <Label>{props.label}</Label>
       <br />
       {/* prettier-ignore */}
-      <StyledInput id={props.idInput} type={props.type} placeholder={props.placeholder} />
-    </StyledDiv>
+      <InputType id={props.idInput} type={props.type} placeholder={props.placeholder} />
+    </Div>
   );
 }
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledDivMobile = styled.div`
+const Mobile = styled.div`
   display: flex;
   justify-content: center;
   margin: 53px 0 0 0;
@@ -9,7 +9,7 @@ const StyledDivMobile = styled.div`
     display: none;
   }
 `;
-const StyledDivDesktop = styled.div`
+const Desktop = styled.div`
   display: none;
 
   @media screen and (min-width: 768px) {
@@ -20,7 +20,6 @@ const StyledDivDesktop = styled.div`
     right: 1%;
     z-index: 0;
   }
-
 
   @media screen and (min-width: 1800px) {
     margin-top: 155px;
@@ -35,7 +34,7 @@ const StyledDivDesktop = styled.div`
   }
 `;
 
-const StyledImgDesktop = styled.img`
+const DesktopImg = styled.img`
   @media screen and (min-width: 768px) {
     width: 650px;
     height: 487.5px;
@@ -60,12 +59,12 @@ const StyledImgDesktop = styled.img`
 function Logo() {
   return (
     <div>
-      <StyledDivMobile>
+      <Mobile>
         <img src="../../assets/logo-mobile.png" alt="Logo" />
-      </StyledDivMobile>
-      <StyledDivDesktop>
-        <StyledImgDesktop src="../../assets/logo-desktop.png" alt="Logo" />
-      </StyledDivDesktop>
+      </Mobile>
+      <Desktop>
+        <DesktopImg src="../../assets/logo-desktop.png" alt="Logo" />
+      </Desktop>
     </div>
   );
 }

@@ -9,7 +9,7 @@ import DontEmptyInput from "../../scripts/dontEmptyInput";
 
 import styled from "styled-components";
 
-const StyledDivBox = styled.div`
+const BoxDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,11 @@ const StyledDivBox = styled.div`
     z-index: 1;
   }
 
+  @media screen and (min-width: 950px) {
+    width: 550px;
+    height: 412.50;
+  }
+
   @media screen and (min-width: 1800px) {
     width: 800px;
     height: 600px;
@@ -44,7 +49,7 @@ const StyledDivBox = styled.div`
   }
 `;
 
-const StyledH2 = styled.h2`
+const H2 = styled.h2`
   text-align: center;
   font-size: 18px;
   margin: 5.3px 0 9.02px 0;
@@ -55,6 +60,11 @@ const StyledH2 = styled.h2`
     margin-top: 9.55px;
     margin-bottom: 29.7px;
   }
+
+  @media screen and (min-width: 950px) {
+    font-size: 45px;
+    margin-top: 14px;
+    margin-bottom: 33px;
 
   @media screen and (min-width: 1800px) {
     font-size: 60px;
@@ -75,7 +85,7 @@ const StyledH2 = styled.h2`
   }
 `;
 
-const StyledDivButtons = styled.div`
+const ButtonsDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,8 +99,8 @@ function Box() {
   });
 
   return (
-    <StyledDivBox>
-      <StyledH2>Login</StyledH2>
+    <BoxDiv>
+      <H2>Login</H2>
       <div className="container">
         <Input
           id="nome-email-field"
@@ -114,7 +124,7 @@ function Box() {
           text="Continuar Conectado"
         />
 
-        <StyledDivButtons>
+        <ButtonsDiv>
           <Button
             id="btn-entrar"
             href="#"
@@ -128,10 +138,10 @@ function Box() {
             icon="fas fa-user-plus"
             text="Cadastrar-se"
           />
-        </StyledDivButtons>
+        </ButtonsDiv>
       </div>
       <ToastContainer />
-    </StyledDivBox>
+    </BoxDiv>
   );
 }
 

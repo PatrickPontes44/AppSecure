@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledLabel = styled.label`
+const Label = styled.label`
   font-size: 10px;
   color: #000;
   font-weight: bold;
@@ -23,7 +23,7 @@ const StyledLabel = styled.label`
   }
 `;
 
-const StyledDiv = styled.div`
+const CheckboxDiv = styled.div`
   display: flex;
   align-items: center;
 
@@ -46,7 +46,7 @@ const StyledDiv = styled.div`
   }
 `;
 
-const StyledInput = styled.input`
+const Input = styled.input`
   appearance: none;
   width: 11.76px;
   height: 10.59px;
@@ -81,10 +81,10 @@ const StyledInput = styled.input`
 
 function Checkbox(props) {
   return (
-    <StyledDiv>
-      <StyledInput type="checkbox" />
-      <StyledLabel>{props.text}</StyledLabel>
-    </StyledDiv>
+    <CheckboxDiv>
+      <Input type="checkbox" />
+      <Label>{props.text}</Label>
+    </CheckboxDiv>
   );
 }
 
