@@ -9,126 +9,14 @@
   box-sizing: border-box;
 }
 
-/* PAGE-LOGIN */
-div#page-login {
-  background: linear-gradient(
-    162.02deg,
-    #9fe8ff 1.89%,
-    rgba(209, 242, 253, 0.78) 69.18%
-  );
-
-  font-family: "Nunito", sans-serif;
-  height: 100vh;
-}
-
-/* HEADER */
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-header h1 {
-  margin-top: 19px;
-  margin-left: 43px;
-  font-size: 24px;
-}
-
-header #desktop-nav {
-  display: none;
-}
-
-.highlight {
-  color: #ff5678;
-}
-
 /* FONT AWESOME */
 .fa.fa-bars {
   font-size: 24px;
-  margin-top: 23px;
-  margin-right: 39px;
+  margin: 23px 39px 0 0;
   color: #ff5678;
 }
 
-/* BOX-LOGIN */
-.box-login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 274px;
-  height: 233px;
-  margin: 72px auto 0 auto;
-  background: #fff;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-
-.box-login h2 {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 5.3px;
-  font-weight: bold;
-  margin-bottom: 9.02px;
-}
-
-.box-login label {
-  font-size: 14px;
-  position: relative;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.box-login input[type="text"],
-.box-login input[type="password"] {
-  border: none;
-  width: 219.91px;
-  height: 25.89px;
-  background: #ff5678;
-  border-radius: 10px;
-  padding-left: 11.76px;
-  font-size: 14px;
-  font-family: "Nunito", "sans-serif";
-  color: #fff;
-  font-weight: bold;
-  outline: none;
-}
-
-.box-login #nome-email-field,
-.box-login #senha-field {
-  margin-bottom: 16.47px;
-}
-
-.box-login #label-continuar-conectado {
-  font-size: 10px;
-  color: #000;
-  font-weight: bold;
-  margin-left: 5.29px;
-}
-
-.box-login .container-checkbox {
-  display: "flex";
-  align-items: "center";
-}
-
-.box-login input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 11.76px;
-  height: 10.59px;
-  padding: 5px;
-  border: 2px solid #ff5678;
-  border-radius: 5px;
-}
-
-.box-login input[type="checkbox"]:checked {
-  background-color: #ff5678;
-}
-
-.box-login #container-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.box-login #btn-entrar {
+#btn-entrar {
   width: 68.21px;
   height: 23.54px;
   background: #ff5678;
@@ -142,120 +30,61 @@ header #desktop-nav {
   text-align: center;
 }
 
-.box-login #btn-entrar i {
-  margin-right: 2.94px;
+#btn-entrar i,
+#btn-cadastrarse i {
+  margin: 0 2.94px 0 0;
 }
 
-.box-login #btn-cadastrarse i {
-  margin-right: 2.94px;
-}
-
-.box-login #btn-cadastrarse {
+#btn-cadastrarse {
   font-size: 14px;
   color: #ff5678;
   text-decoration: none;
 }
 
-/* CONTAINER-LOGO-MOBILE */
-#container-logo-mobile {
-  display: flex;
-  justify-content: center;
-  margin-top: 53px;
-}
-
-/* CONTAINER-LOGO-DESKTOP */
-#container-logo-desktop {
-  display: none;
-}
-
-/* MEDIA QUERIES */
-@media screen and (min-width: 768px) {
-  /* HEADER */
-  header #mobile-nav {
-    display: none;
-  }
-
-  header #desktop-nav {
-    display: block;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ff5678;
-    font-weight: bold;
-    margin-top: 42px;
-    margin-right: 102px;
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  /* BOX-LOGIN */
-  .box-login {
-    width: 494.24px;
-    height: 420px;
-    margin-left: 122px;
-  }
-
-  .box-login h2 {
-    font-size: 30px;
-    margin-top: 9.55px;
-    margin-bottom: 29.7px;
-  }
-
-  .box-login label {
-    font-size: 20px;
-  }
-
-  .box-login input[type="text"],
-  .box-login input[type="password"] {
-    width: 396.67px;
-    height: 46.67px;
-    font-size: 20px;
-  }
-
-  .box-login #label-continuar-conectado {
-    font-size: 15px;
-  }
-
-  .box-login #btn-entrar {
+@media screen and (min-width: 1305px) {
+  #btn-entrar {
     width: 122.03px;
     height: 42.42px;
     font-size: 20px;
   }
 
-  .box-login #btn-cadastrarse {
+  #btn-cadastrarse {
     font-size: 20px;
   }
+}
 
-  .box-login #container-checkbox {
-    display: flex;
-    align-items: center;
-    margin-top: 29.7px;
-    margin-bottom: 24.34px;
+@media screen and (min-width: 1800px) {
+  #btn-entrar {
+    width: 244px;
+    height: 84px;
+    font-size: 40px;
   }
 
-  .box-login input[type="checkbox"] {
-    width: 21.21px;
-    height: 19.09px;
-    padding: 5px;
+  #btn-cadastrarse {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 2650px) {
+  #btn-entrar {
+    width: 244px;
+    height: 84px;
+    font-size: 40px;
   }
 
-  /* CONTAINER-LOGO-MOBILE */
-  #container-logo-mobile {
-    display: none;
+  #btn-cadastrarse {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 3765px) {
+  #btn-entrar {
+    width: 488px;
+    height: 168px;
+    font-size: 80px;
   }
 
-  /* CONTAINER-LOGO-MOBILE */
-  #container-logo-desktop {
-    display: flex;
-    position: absolute;
-    top: 0;
-    margin-top: 110px;
-    right: 1%;
-  }
-
-  #container-logo-desktop img {
-    width: 650px;
-    height: 487.5px;
+  #btn-cadastrarse {
+    font-size: 80px;
   }
 }
