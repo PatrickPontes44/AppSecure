@@ -5,7 +5,7 @@ import Button from "./Button";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
-import DontEmptyInput from "../../scripts/dontEmptyInput";
+import BusinessRules from "../../scripts/businessRules";
 
 import styled from "styled-components";
 
@@ -85,7 +85,7 @@ function Box() {
   useEffect(() => {
     document
       .getElementById("btn-entrar")
-      .addEventListener("click", DontEmptyInput);
+      .addEventListener("click", BusinessRules);
   });
 
   return (
