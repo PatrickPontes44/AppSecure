@@ -1,13 +1,13 @@
-import SingUp from '../components/SingUp';
+import SignUp from '../components/SignUp';
 import Header from "../components/Login/Header";
 
-function PageSingUp() {
+function PageSignUp() {
     return(
         <SingUp />
     );
 }
 
-export default PageSingUp;
+export default PageSignUp;
 
 {/* <div id='singup'>
             <Header />

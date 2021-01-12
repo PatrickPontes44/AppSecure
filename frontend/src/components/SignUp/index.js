@@ -1,8 +1,8 @@
-import SingUpSection from './SingUpSection.js';
+import SignUpSection from './SignUpSection.js';
 import Header from '../Login/Header';
 import styled from 'styled-components';
 
-const StyledSingUp = styled.div`
+const StyledSignUp = styled.div`
     width: 100%;
     min-height: 100vh;
     height: 100%;
@@ -38,17 +38,17 @@ const Main = styled.main`
     }
 `
 
-function SingUp() {
+function SignUp() {
     return(
-        <StyledSingUp>
+        <StyledSignUp>
             <Header />
 
             <Main>
-                <SingUpSection />
+                <SignUpSection />
                 <img className='logo' src='../../assets/logo-desktop.png' alt='Logo' />
             </Main>
-        </StyledSingUp>
+        </StyledSignUp>
     )
 }
 
-export default SingUp;
+export default SignUp;

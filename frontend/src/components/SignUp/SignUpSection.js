@@ -22,10 +22,10 @@ const BtnsContainer = styled.div`
     justify-content: space-between;
 `
 
-function SingUpSection() {
+function SignUpSection() {
     return (
         <Section>
-            <Title>Singup</Title>
+            <Title>Signup</Title>
             <Input type='text' title='Nome' placeholder='Fake Name' />
             <Input type='email' title='Email' placeholder='Fake Email' />
             <Input type='password' title='Senha' placeholder='*******' />
@@ -55,4 +55,4 @@ function SingUpSection() {
     )
 }
 
-export default SingUpSection;
+export default SignUpSection;

@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Login from "./pages/Login.js";
-import SingUp from "./pages/SingUp.js";
+import SignUp from "./pages/SignUp.js";
 
 import GlobalStyle from './styles/global.js';
 
@@ -11,7 +11,7 @@ function App() {
         <GlobalStyle />
         <Switch>
           <Route exact path='/' component={Login} />
-          <Route path='/singup' component={SingUp} />
+          <Route path='/signup' component={SignUp} />
         </Switch>
     </BrowserRouter>
   );
