@@ -22,15 +22,15 @@ const Desktop = styled.div`
   }
 
   @media screen and (min-width: 1800px) {
-    margin-top: 155px;
-  }
-
-  @media screen and (min-width: 2650px) {
     margin-top: 200px;
   }
 
+  @media screen and (min-width: 2650px) {
+    margin-top: 300px;
+  }
+
   @media screen and (min-width: 3765px) {
-    margin-top: 260px;
+    margin-top: 425px;
   }
 `;
 

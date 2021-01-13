@@ -48,15 +48,15 @@ const Label = styled.label`
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 70px;
+    font-size: 80px;
   }
 `;
 

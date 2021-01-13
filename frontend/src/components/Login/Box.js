@@ -53,27 +53,27 @@ const H2 = styled.h2`
   font-weight: bold;
 
   @media screen and (min-width: 1305px) {
-    font-size: 30px;
+    font-size: 38px;
     margin-top: 9.55px;
     margin-bottom: 29.7px;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 60px;
+    font-size: 58px;
     margin-top: 18px;
     margin-bottom: 39px;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 120px;
+    font-size: 78px;
     margin-top: 36px;
-    margin-bottom: 78px;
+    margin-bottom: 49px;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 170px;
+    font-size: 158px;
     margin-top: 72px;
-    margin-bottom: 136px;
+    margin-bottom: 59px;
   }
 `;
 

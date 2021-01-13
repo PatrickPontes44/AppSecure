@@ -5,6 +5,19 @@ import DesktopNav from "./DesktopNav";
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+
+  @media screen and (min-width: 1305px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1305px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: 3765px) {
+    margin-bottom: 180px;
+  }
 `;
 
 const H1 = styled.h1`

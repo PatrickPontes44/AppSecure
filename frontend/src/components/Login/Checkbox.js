@@ -19,13 +19,14 @@ const Label = styled.label`
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 45px;
+    font-size: 65px;
   }
 `;
 
 const CheckboxDiv = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 
   @media screen and (min-width: 1305px) {
     margin-top: 29.7px;
@@ -33,16 +34,18 @@ const CheckboxDiv = styled.div`
   }
 
   @media screen and (min-width: 1800px) {
-    margin-top: 50px;
+    margin-top: 39.7px;
+    margin-bottom: 34.34px;
   }
 
   @media screen and (min-width: 2650px) {
-    margin-top: 30px;
+    margin-top: 49.7px;
+    margin-bottom: 44.34px;
   }
 
   @media screen and (min-width: 3765px) {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 59.7px;
+    margin-bottom: 54.34px;
   }
 `;
 

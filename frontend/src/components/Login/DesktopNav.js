@@ -9,20 +9,19 @@ const A = styled.a`
     font-size: 25px;
     color: #ff5678;
     font-weight: bold;
-    margin-top: 32px;
-    margin-right: 102px;
+    margin: 0 102px 0 0;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 65px;
+    font-size: 50px;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 105px;
+    font-size: 85px;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 145px;
+    font-size: 105px;
   }
 `;
 
