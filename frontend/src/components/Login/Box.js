@@ -9,6 +9,8 @@ import BusinessRules from "../../scripts/businessRules";
 
 import styled from "styled-components";
 
+import { Link } from "react-router-dom";
+
 const BoxDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -122,12 +124,14 @@ function Box() {
             text="Entrar"
           />
 
-          <Button
-            id="btn-cadastrarse"
-            href="#"
-            icon="fas fa-user-plus"
-            text="Cadastrar-se"
-          />
+          <Link to="/signup" style={{ textDecoration: "none" }}>
+            <Button
+              id="btn-cadastrarse"
+              href="#"
+              icon="fas fa-user-plus"
+              text="Cadastrar-se"
+            />
+          </Link>
         </ButtonsDiv>
       </div>
       <ToastContainer />
