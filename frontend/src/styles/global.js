@@ -1,6 +1,11 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+    :root {
+        --primary-pink: #ff5678;
+        font-size: 10px;
+    }
+
     * {
         padding:0;
         margin:0;
@@ -9,10 +14,6 @@ export default createGlobalStyle`
         border:0;
         box-sizing: border-box;
         font-family: 'Nunito', sans-serif;
-    }
-
-    :root {
-        --primary-pink: #FF5678;
     }
 
     ::-webkit-input-placeholder {
@@ -27,4 +28,4 @@ export default createGlobalStyle`
     :-ms-input-placeholder {  
         color: white;  
     }
-`
+`;

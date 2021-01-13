@@ -5,10 +5,17 @@ const A = styled.a`
     display: none;
   }
 `;
+
+const I = styled.i`
+  font-size: 2.4rem;
+  margin: 23px 39px 0 0;
+  color: #ff5678;
+`;
+
 function MobileNav(props) {
   return (
     <A href={props.href} onClick={(e) => e.preventDefault()} id={props.id}>
-      <i className={props.icon}></i>
+      <I className={props.icon}></I>
     </A>
   );
 }
