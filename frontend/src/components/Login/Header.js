@@ -11,8 +11,8 @@ const Header = styled.header`
     margin-bottom: 80px;
   }
 
-  @media screen and (min-width: 1305px) {
-    margin-bottom: 80px;
+  @media screen and (min-width: 2650px) {
+    margin-bottom: 100px;
   }
 
   @media screen and (min-width: 3765px) {
