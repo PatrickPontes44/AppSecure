@@ -5,7 +5,7 @@ import Logo from "../components/Login/Logo";
 
 import styled from "styled-components";
 
-const StyledDiv = styled.div`
+const Div = styled.div`
   background: linear-gradient(
     162.02deg,
     #9fe8ff 1.89%,
@@ -13,16 +13,20 @@ const StyledDiv = styled.div`
   );
 
   font-family: "Nunito", sans-serif;
-  height: 100vh;
+  height: 125h;
+
+  @media screen and (min-width: 1305px) {
+    height: 100vh;
+  }
 `;
 
 function Login() {
   return (
-    <StyledDiv>
+    <Div>
       <Header />
       <Box />
       <Logo />
-    </StyledDiv>
+    </Div>
   );
 }
 
