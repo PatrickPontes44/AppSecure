@@ -22,22 +22,22 @@ const Header = styled.header`
 
 const H1 = styled.h1`
   margin: 19px 0 0 43px;
-  font-size: 24px;
+  font-size: 2.4rem;
 
   @media screen and (min-width: 1305px) {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 80px;
+    font-size: 8rem;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 115px;
+    font-size: 11.5rem;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 150px;
+    font-size: 15rem;
   }
 `;
 

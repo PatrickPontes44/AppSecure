@@ -7,7 +7,7 @@ const InputType = styled.input`
   background: #ff5678;
   border-radius: 10px;
   padding-left: 11.76px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Nunito", "sans-serif";
   color: #fff;
   font-weight: bold;
@@ -16,47 +16,47 @@ const InputType = styled.input`
   @media screen and (min-width: 1305px) {
     width: 396.67px;
     height: 46.67px;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   @media screen and (min-width: 1800px) {
     width: 600px;
     height: 60px;
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 2650px) {
     width: 750px;
     height: 80px;
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 3765px) {
     width: 1500px;
     height: 160px;
-    font-size: 80px;
+    font-size: 8rem;
   }
 `;
 
 const Label = styled.label`
-  font-size: 14px;
+  font-size: 1.4rem;
   position: relative;
   color: rgba(0, 0, 0, 0.6);
 
   @media screen and (min-width: 1305px) {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 80px;
+    font-size: 8rem;
   }
 `;
 

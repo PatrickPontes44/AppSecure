@@ -6,22 +6,22 @@ const A = styled.a`
   @media screen and (min-width: 1305px) {
     display: flex;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #ff5678;
     font-weight: bold;
     margin: 0 102px 0 0;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 50px;
+    font-size: 5rem;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 85px;
+    font-size: 8.5rem;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 105px;
+    font-size: 10.5rem;
   }
 `;
 

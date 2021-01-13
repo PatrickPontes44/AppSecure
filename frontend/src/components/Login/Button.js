@@ -10,7 +10,7 @@ const A = styled.a`
     border-radius: 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 1.2rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ const A = styled.a`
   }
 
   &#btn-cadastrarse {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #ff5678;
     text-decoration: none;
   }
@@ -27,11 +27,11 @@ const A = styled.a`
     &#btn-entrar {
       width: 122.03px;
       height: 42.42px;
-      font-size: 20px;
+      font-size: 2rem;
     }
 
     &#btn-cadastrarse {
-      font-size: 20px;
+      font-size: 2rem;
     }
   }
 
@@ -39,11 +39,11 @@ const A = styled.a`
     &#btn-entrar {
       width: 244px;
       height: 84px;
-      font-size: 40px;
+      font-size: 4rem;
     }
 
     &#btn-cadastrarse {
-      font-size: 40px;
+      font-size: 4rem;
     }
   }
 
@@ -51,11 +51,11 @@ const A = styled.a`
     &#btn-entrar {
       width: 244px;
       height: 84px;
-      font-size: 40px;
+      font-size: 4rem;
     }
 
     &#btn-cadastrarse {
-      font-size: 40px;
+      font-size: 4rem;
     }
   }
 
@@ -63,11 +63,11 @@ const A = styled.a`
     &#btn-entrar {
       width: 488px;
       height: 168px;
-      font-size: 80px;
+      font-size: 8rem;
     }
 
     &#btn-cadastrarse {
-      font-size: 80px;
+      font-size: 8rem;
     }
   }
 `;

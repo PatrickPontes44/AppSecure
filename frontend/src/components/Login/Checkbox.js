@@ -1,25 +1,25 @@
 import styled from "styled-components";
 
 const Label = styled.label`
-  font-size: 10px;
+  font-size: 1rem;
   color: #000;
   font-weight: bold;
   margin: 0 0 0 5.29px;
 
   @media screen and (min-width: 1305px) {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 35px;
+    font-size: 3.5rem;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 65px;
+    font-size: 6.5rem;
   }
 `;
 
