@@ -48,32 +48,32 @@ const BoxDiv = styled.div`
 
 const H2 = styled.h2`
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 5.3px 0 9.02px 0;
   font-weight: bold;
 
   @media screen and (min-width: 1305px) {
-    font-size: 30px;
+    font-size: 3.8rem;
     margin-top: 9.55px;
     margin-bottom: 29.7px;
   }
 
   @media screen and (min-width: 1800px) {
-    font-size: 60px;
+    font-size: 5.8rem;
     margin-top: 18px;
     margin-bottom: 39px;
   }
 
   @media screen and (min-width: 2650px) {
-    font-size: 120px;
+    font-size: 7.8rem;
     margin-top: 36px;
-    margin-bottom: 78px;
+    margin-bottom: 49px;
   }
 
   @media screen and (min-width: 3765px) {
-    font-size: 170px;
+    font-size: 15.8rem;
     margin-top: 72px;
-    margin-bottom: 136px;
+    margin-bottom: 59px;
   }
 `;
 
