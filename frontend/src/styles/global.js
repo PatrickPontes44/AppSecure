@@ -7,11 +7,11 @@ export default createGlobalStyle`
     }
 
     * {
-        padding:0;
-        margin:0;
-        vertical-align:baseline;
-        list-style:none;
-        border:0;
+        padding: 0;
+        margin: 0;
+        vertical-align: baseline;
+        list-style: none;
+        border: 0;
         box-sizing: border-box;
         font-family: 'Nunito', sans-serif;
     }

@@ -26,7 +26,7 @@ const BoxDiv = styled.div`
   @media screen and (min-width: 1305px) {
     width: 494.24px;
     height: 420px;
-    margin-left: 110px;
+    margin-left: 6%;
     z-index: 1;
   }
 
