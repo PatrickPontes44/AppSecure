@@ -12,7 +12,7 @@ const Div = styled.div`
   );
 
   font-family: "Nunito", sans-serif;
-  height: 125h;
+  height: 125vh;
 
   @media screen and (min-width: 1305px) {
     height: 100vh;
