@@ -28,4 +28,8 @@ export default createGlobalStyle`
     :-ms-input-placeholder {  
         color: white;  
     }
+
+    .Toastify__toast-body {
+        font-size: 1.8rem;
+    }
 `;
