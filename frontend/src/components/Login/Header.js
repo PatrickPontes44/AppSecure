@@ -8,9 +8,10 @@ const Header = styled.header`
   align-items: flex-end;
 
   @media screen and (min-width: 1305px) {
-    margin-bottom: 80px;
+    margin-bottom: 6%;
   }
 
+  /*
   @media screen and (min-width: 2650px) {
     margin-bottom: 100px;
   }
@@ -18,10 +19,11 @@ const Header = styled.header`
   @media screen and (min-width: 3765px) {
     margin-bottom: 180px;
   }
+  */
 `;
 
 const H1 = styled.h1`
-  margin: 19px 0 0 43px;
+  margin: 1% 0 0 5%;
   font-size: 2.4rem;
 
   @media screen and (min-width: 1305px) {
