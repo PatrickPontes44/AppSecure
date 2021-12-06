@@ -4,6 +4,7 @@ const StyledButton = styled.button`
     border-radius: 10px;
     font-size: 16px;
     padding: 4px;
+    cursor: pointer;
 
     ${props => props.bg==='pink' ? `
         background-color: var(--primary-pink);

@@ -9,18 +9,6 @@ const Label = styled.label`
   @media screen and (min-width: 1305px) {
     font-size: 1.5rem;
   }
-
-  @media screen and (min-width: 1800px) {
-    font-size: 2.5rem;
-  }
-
-  @media screen and (min-width: 2650px) {
-    font-size: 3.5rem;
-  }
-
-  @media screen and (min-width: 3765px) {
-    font-size: 6.5rem;
-  }
 `;
 
 const CheckboxDiv = styled.div`
@@ -31,21 +19,6 @@ const CheckboxDiv = styled.div`
   @media screen and (min-width: 1305px) {
     margin-top: 29.7px;
     margin-bottom: 24.34px;
-  }
-
-  @media screen and (min-width: 1800px) {
-    margin-top: 39.7px;
-    margin-bottom: 34.34px;
-  }
-
-  @media screen and (min-width: 2650px) {
-    margin-top: 49.7px;
-    margin-bottom: 44.34px;
-  }
-
-  @media screen and (min-width: 3765px) {
-    margin-top: 59.7px;
-    margin-bottom: 54.34px;
   }
 `;
 
@@ -64,21 +37,6 @@ const Input = styled.input`
   @media screen and (min-width: 1305px) {
     width: 21.21px;
     height: 19.09px;
-  }
-
-  @media screen and (min-width: 1800px) {
-    width: 42px;
-    height: 38px;
-  }
-
-  @media screen and (min-width: 2650px) {
-    width: 42px;
-    height: 38px;
-  }
-
-  @media screen and (min-width: 3765px) {
-    width: 84px;
-    height: 66px;
   }
 `;
 

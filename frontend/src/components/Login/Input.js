@@ -3,7 +3,7 @@ import styled from "styled-components";
 const InputType = styled.input`
   border: none;
   width: 219.91px;
-  height: 25.89px;
+  height: 30px;
   background: #ff5678;
   border-radius: 10px;
   padding-left: 11.76px;
@@ -19,44 +19,15 @@ const InputType = styled.input`
     font-size: 2rem;
   }
 
-  @media screen and (min-width: 1800px) {
-    width: 600px;
-    height: 60px;
-    font-size: 4rem;
-  }
-
-  @media screen and (min-width: 2650px) {
-    width: 750px;
-    height: 80px;
-    font-size: 4rem;
-  }
-
-  @media screen and (min-width: 3765px) {
-    width: 1500px;
-    height: 160px;
-    font-size: 8rem;
-  }
 `;
 
 const Label = styled.label`
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   position: relative;
   color: rgba(0, 0, 0, 0.6);
 
   @media screen and (min-width: 1305px) {
     font-size: 2rem;
-  }
-
-  @media screen and (min-width: 1800px) {
-    font-size: 3rem;
-  }
-
-  @media screen and (min-width: 2650px) {
-    font-size: 4rem;
-  }
-
-  @media screen and (min-width: 3765px) {
-    font-size: 8rem;
   }
 `;
 
