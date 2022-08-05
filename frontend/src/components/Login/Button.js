@@ -34,42 +34,6 @@ const A = styled.a`
       font-size: 2rem;
     }
   }
-
-  @media screen and (min-width: 1800px) {
-    &#btn-entrar {
-      width: 244px;
-      height: 84px;
-      font-size: 4rem;
-    }
-
-    &#btn-cadastrarse {
-      font-size: 4rem;
-    }
-  }
-
-  @media screen and (min-width: 2650px) {
-    &#btn-entrar {
-      width: 244px;
-      height: 84px;
-      font-size: 4rem;
-    }
-
-    &#btn-cadastrarse {
-      font-size: 4rem;
-    }
-  }
-
-  @media screen and (min-width: 3765px) {
-    &#btn-entrar {
-      width: 488px;
-      height: 168px;
-      font-size: 8rem;
-    }
-
-    &#btn-cadastrarse {
-      font-size: 8rem;
-    }
-  }
 `;
 
 function Button(props) {

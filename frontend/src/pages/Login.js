@@ -5,26 +5,24 @@ import Logo from "../components/Login/Logo";
 import styled from "styled-components";
 
 const Div = styled.div`
-  background: linear-gradient(
-    162.02deg,
-    #9fe8ff 1.89%,
-    rgba(209, 242, 253, 0.78) 69.18%
-  );
-
-  font-family: "Nunito", sans-serif;
-  height: 125vh;
-
-  @media screen and (min-width: 1305px) {
-    height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   }
 `;
+
+const Main = styled.main ``;
+const Section = styled.section ``;
 
 function Login() {
   return (
     <Div>
       <Header />
-      <Box />
-      <Logo />
+      <Main>
+        <Section>
+          <Box />
+          <Logo />
+        </Section>
+      </Main>
     </Div>
   );
 }

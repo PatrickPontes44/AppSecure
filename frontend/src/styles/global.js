@@ -16,6 +16,14 @@ export default createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
 
+    body {
+        background: linear-gradient(
+            162.02deg,
+            #9fe8ff 1.89%,
+            rgba(209, 242, 253, 0.78) 69.18%
+        );
+    }
+
     ::-webkit-input-placeholder {
         color: white;
     }
